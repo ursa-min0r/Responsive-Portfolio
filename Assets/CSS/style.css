@@ -24,7 +24,7 @@
 /* NAVIGATION */
     ul {
       list-style-type: none;
-      margin: 0;
+      margin: auto;
       padding: 0;
       overflow: hidden;
       background-color: black;
@@ -90,8 +90,21 @@ input[type=submit]:hover {
   float: center;
 }
 
-p {
-  line-height: 20px;
+#portfolioP {
+  line-height: 15px;
+}
+
+a:link, a:visited {
+  background-color: black;
+  color:white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: dimgrey;
 }
 
 @media only screen and (max-width: 980px) {
